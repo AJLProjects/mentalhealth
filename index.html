@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-layout">
+        <aside class="sidebar">
+            <h2>Previous Entries</h2>
+            <ul id="previous-days-list">
+                <!-- Previous dates will be loaded here -->
+                <li class="no-entries">No previous entries yet.</li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <h1>Daily Journal</h1>
+
+            <div class="journal-entry">
+                <h2>My Day - <span id="display-date"></span></h2>
+                <textarea id="journal-text" placeholder="Write about your day..."></textarea>
+            </div>
+
+            <div class="daily-tasks">
+                <h2>Daily Tasks Checklist</h2>
+                <div id="task-list">
+                    <!-- Tasks will be loaded here by JavaScript -->
+                </div>
+            </div>
+
+            <p class="status" id="save-status"></p>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
