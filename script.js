@@ -8,10 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Hardcoded Tasks ---
     const dailyTasks = [
-        { id: 'task-exercise', text: 'Exercise for 30 minutes' },
-        { id: 'task-read', text: 'Read a book/article' },
-        { id: 'task-hydrate', text: 'Drink 8 glasses of water' },
-        { id: 'task-plan', text: 'Plan tomorrow\'s main task' },
+        { id: 'task-meditate', text: 'Meditate or practice mindfulness (5+ mins)' },
+        { id: 'task-eat-well', text: 'Prioritize whole foods (limit ultra-processed)' },
+        { id: 'task-move-body', text: 'Move your body (walk, exercise, stretch)' },
+        { id: 'task-sleep', text: 'Aim for quality sleep (7-9 hours)' },
+        { id: 'task-connect', text: 'Connect with someone or practice gratitude' },
         // Add more tasks as needed
     ];
 
